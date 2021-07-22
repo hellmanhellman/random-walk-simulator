@@ -4,7 +4,8 @@
 A random walker written in C using SDL2 and compiled on macOS Big Sur 11.5.
 Simulates 200 million coin tosses (epochs) in about 4 seconds, then plots how the score changed over time. This is a great way to get intuition about the very interestingly applicable $1 dollar wager game: 
 
-This code is very basic and can be easily adaptabe to run any other fast physics simulation that you might need. If you wan't my advice on some implementation feel free to ask.
+# For developers
+This code is very basic and can be easily adaptabe to run any other fast physics simulation that you might need, and that you might want to use C because C is faster than the speed of light, literally and figuratively. Well maybe I exaggerate. I'm not very good at writing these readmes. Anyway the next thing I'm gonna use this code for is graphinc the chaos in the logistic function.
 
 
 # Instructions
