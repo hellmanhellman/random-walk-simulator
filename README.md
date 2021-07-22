@@ -4,6 +4,8 @@
 A random walker written in C using SDL2 and compiled on macOS Big Sur 11.5.
 Simulates 200 million coin tosses (epochs) in about 4 seconds, then plots how the score changed over time. This is a great way to get intuition about the very interestingly applicable $1 dollar wager game: 
 
+This code is very basic and can be easily adaptabe to run any other fast physics simulation that you might need. If you wan't my advice on some implementation feel free to ask.
+
 
 # Instructions
 If you're interested feel free to clone the repo, and -- first look through the source file and see that it's not maliscious, then compile it yourself, using the command specified below. 
@@ -53,3 +55,4 @@ Running 200 000 000 epochs, you can see the law of large numbers starting to cre
 
 Notice how skewed it is. The two friends flipped coins; each had the same chance of winning as the other. We could expect that there would be some flipping back and forth in the beginning (or the end, as it turns out, by way of symmetry), and there was. But it stopped in the very first beat of the process. The rest of the score was 99% in person A's favor. So think about which systems we can expect to fall for this unintuitive probabilistic compounding. 
 If you want some good reading, I suggest [Replication Crisis](https://en.wikipedia.org/wiki/Replication_crisis). Then read a book about statistics and learn some real power (Statistically speaking.)
+And then read a book 
