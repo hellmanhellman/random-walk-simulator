@@ -5,14 +5,14 @@ A random walker written in C using SDL2 and compiled on macOS Big Sur 11.5.
 Simulates 200 million coin tosses (epochs) in about 4 seconds, then plots how the score changed over time. This is a great way to get intuition about the very interestingly applicable $1 dollar wager game: 
 
 # For developers
-This code is very basic and can be easily adaptabe to run any other fast physics simulation that you might need, and that you might want to use C because C is faster than the speed of light, literally and figuratively. Well maybe I exaggerate. I'm not very good at writing these readmes. Anyway the next thing I'm gonna use this code for is graphinc the chaos in the logistic function.
-
-
-# Instructions
-If you're interested feel free to clone the repo, and -- first look through the source file and see that it's not maliscious, then compile it yourself, using the command specified below. 
+This code is very basic and can be easily adaptabe to run any other fast physics simulation that you might need, and that you might want to use C because C is faster than the speed of light, literally and figuratively. Sorry I shouldn't start lying about einstein in only the second paragraph of this github readme, we can do that later-- but in any case if you want some inspiration; my next project is to simulate the iterations of the logistic map, an easy feat with C and SDL2.
 
 
 # Installation
+If you're interested feel free to clone the repo, and -- first look through the source file and see that it's not maliscious, then compile it yourself, using the command specified below. 
+
+
+## Compilation
 
 I beseech you to compile the binary yourself instead of just using it; simply because, if I were a malicious attacker, it is both easy, fun, and soul-crushing to get shellcode in your system and probably steal all your dogecoin. Seriously though, compile it. It can only make you a better craftsman. 
 You will need to have the [SDL2 library](https://www.libsdl.org) installed for the plotter to work. I'm using macOS i got ut working after a couple of hours debugging. Try with brew install sdl2, try it through xcode, try it (this worked for me) using the [SDL2 library](https://www.libsdl.org) resources.
