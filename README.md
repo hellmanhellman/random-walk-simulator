@@ -5,17 +5,13 @@ A random walker written in C using SDL2 and compiled on macOS Big Sur 11.5.
 Simulates 200 million coin tosses (epochs) in about 4 seconds, then plots how the score changed over time. This is a great way to get intuition about the very interestingly applicable $1 dollar wager game: 
 
 # For developers
-This code is very basic and can be easily adaptabe to run any other fast physics simulation that you might need, and that you might want to use C because C is faster than the speed of light, literally and figuratively. Sorry I shouldn't start lying about einstein in only the second paragraph of this github readme, we can do that later-- but in any case if you want some inspiration; my next project is to simulate the iterations of the logistic map, an easy feat with C and SDL2.
+This code is very basic and can be easily adaptabe to run any other fast physics simulation that you might need.
 
 
 # Installation
 If you're interested feel free to clone the repo, and -- first look through the source file and see that it's not maliscious, then compile it yourself, using the command specified below. 
 
-
-## Compilation
-
-I beseech you to compile the binary yourself instead of just using it; simply because, if I were a malicious attacker, it is both easy, fun, and soul-crushing to get shellcode in your system and probably steal all your dogecoin. Seriously though, compile it. It can only make you a better craftsman. 
-You will need to have the [SDL2 library](https://www.libsdl.org) installed for the plotter to work. I'm using macOS i got ut working after a couple of hours debugging. Try with brew install sdl2, try it through xcode, try it (this worked for me) using the [SDL2 library](https://www.libsdl.org) resources.
+You will need to have the [SDL2 library](https://www.libsdl.org) installed for the plotter to work. I'm using macOS I got it working after a couple of hours. Try with `brew install sdl2`, try it through xcode, try it (this worked for me) using the [SDL2 library](https://www.libsdl.org) resources.
 
 Once your compiler recognizes SDL2 you can compile this program. If you're on mac, you just clone the repo, cd inside it, and then in the terminal type the commands 
 
@@ -33,10 +29,9 @@ In the course of playing, how many percent of the time was the score positive? Y
 
 it is in reality much more common to have the score be in favor of one side for more than 95% of the game, even if youre playing 10 million games.
 So what? Well I like to think about it as a model for testing scientific hypothesis. Testing some idea you have scientifically means that you 
-formulate your conjecture, a null hypothesis which holds that the effects your original theory is trying to correlate, could also have gotten their "relationships" completely randomly -- then you find out that your theory is garbage, and after you take that out, you can git clone and run this random walker, and get new intuition about how knowledge is desceptive. Just kidding.
+formulate your conjecture, a null hypothesis which holds that the effects your original theory is trying to correlate, could also have gotten their "relationships" completely randomly.
 
-For instance, (and full disclosure: i thieved this example from the excellent Introduction to Probability Theory and Its Applications, by William Feller.)
-
+An example paraphrased from William Fellers Introduction to Probability Theory and Its Applications:
 
 Image that you were a teacher, and you were grading students throughout a year, and was nearing the time for summarizing scores and setting their grades.
 If you had one child who was behind on his studies for 11 months our of the year, then caught up -- and one other kid who instead was in the lead for the first 9 months, but had since then been slowly slipping. Which one of them needs your help? The answer is almost certainly none of them. These seemingly outlying results would reappear if made your tests random. These huge segregations will still appear regularly. 
@@ -55,5 +50,4 @@ Running 200 000 000 epochs, you can see the law of large numbers starting to cre
 <img width="1729" alt="Screenshot 2021-07-22 at 23 03 16" src="https://user-images.githubusercontent.com/9209644/126709209-8ccef1e3-e061-4986-8682-172c97a97cae.png">
 
 Notice how skewed it is. The two friends flipped coins; each had the same chance of winning as the other. We could expect that there would be some flipping back and forth in the beginning (or the end, as it turns out, by way of symmetry), and there was. But it stopped in the very first beat of the process. The rest of the score was 99% in person A's favor. So think about which systems we can expect to fall for this unintuitive probabilistic compounding. 
-If you want some good reading, I suggest [Replication Crisis](https://en.wikipedia.org/wiki/Replication_crisis). Then read a book about statistics and learn some real power (Statistically speaking.)
-And then read a book 
+If you want some good reading, I suggest [Replication Crisis](https://en.wikipedia.org/wiki/Replication_crisis).
