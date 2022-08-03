@@ -2,7 +2,7 @@
 
 
 A random walker written in C using SDL2 and compiled on macOS Big Sur 11.5.
-Simulates 200 million coin tosses (epochs) in about 4 seconds, then plots how the score changed over time. This is a great way to get intuition about the very interestingly applicable $1 dollar wager game: 
+Simulates 200 million coin tosses (epochs) in about 4 seconds, then plots how the score changed over time. This is a great way to get intuition about the very interesting $1 dollar wager game. 
 
 # For developers
 This code is very basic and can be easily adaptabe to run any other fast physics simulation that you might need.
