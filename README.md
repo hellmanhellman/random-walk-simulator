@@ -9,7 +9,7 @@ This code is very basic and can be easily adaptabe to run any other fast physics
 
 
 # Installation
-If you're interested feel free to clone the repo, and -- first look through the source file and see that it's not maliscious, then compile it yourself, using the command specified below. 
+If you're interested feel free to clone the repo, and compile it yourself using the command specified below. 
 
 You will need to have the [SDL2 library](https://www.libsdl.org) installed for the plotter to work. I'm using macOS I got it working after a couple of hours. Try with `brew install sdl2`, try it through xcode, try it (this worked for me) using the [SDL2 library](https://www.libsdl.org) resources.
 
